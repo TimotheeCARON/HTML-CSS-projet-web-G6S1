@@ -1,0 +1,250 @@
+body
+{
+font-family:Calibri;
+background-color :#2E2A2A;
+}
+
+
+#allBody
+{
+position:absolute;
+top: 0;
+left: 0;
+right: 0;
+margin-top:0;
+}
+
+
+img.imageBanniere
+{
+width:100%;
+height: 400px;
+display:block;
+}
+
+
+
+table.banniere
+{
+width:100%;
+border-collapse:collapse;
+}
+
+td.banniere
+{
+font-size:23px;
+width:25%;
+height:50px;
+text-align:center;
+border:2px solid #EAE1E1;
+background-color:#EAE1E1;
+}
+
+td.banniere:hover
+{
+cursor:pointer;
+font-size:23px;
+width:25%;
+height:50px;
+text-align:center;
+border:2px solid #EAE1E1;
+background-color:#272727;
+color:#EAE1E1;
+}
+
+td.avecBordure
+{
+box-shadow:1px 10px 10px rgba(0,0,0,0.3);
+}
+
+td.sansBordure
+{
+border:0;
+background-color:#2E2A2A;
+color:#EAE1E1;
+}
+
+td.sansBordure:hover
+{
+border:0;
+color:#EAE1E1;
+}
+
+#intro
+{
+margin-top:75px;
+margin-left:18%;
+margin-right:18%;
+}
+
+h1.hIntro
+{
+color:#973D3D;
+}
+
+p.pIntro
+{
+color:#EAE1E1;
+}
+
+#milieuCouleur
+{
+margin-top:75px;
+background-color:#EAE1E1;
+box-shadow:1px 1px 10px 10px rgba(0,0,0,0.3);
+}
+
+#milieu
+{
+padding-top:50px;
+padding-bottom:50px;
+margin-left:18%;
+margin-right:18%;
+}
+
+footer
+{
+margin-top:50px;
+margin-bottom:40px;
+margin-left:10%;
+margin-right:10%;
+}
+
+#panier
+{
+margin-top:-50px;
+margin-left:70%;
+}
+
+h1
+{
+margin-bottom:0px;
+color:#872121;
+}
+
+p
+{
+font-size:23px;
+color:black;
+margin-top:10px;
+}
+
+p.textGris
+{
+	color:#EAE1E1;
+}
+
+footer>table
+{
+	width:100%;
+	border-spacing : 10px;
+}
+
+
+
+p.lien
+{
+	margin-left:5%;
+}
+
+p.lien:hover
+{
+	cursor:pointer;
+}
+
+
+img.contact
+{
+	height:100px; 
+	width:93px;
+}
+
+table.contact
+{
+	
+	border-spacing : 10px;
+}
+
+table.edt
+{
+	color:black;
+	font-size: 25px;
+}
+
+#milieu table
+{
+	width:70%; 
+    margin-left:15%; 
+    margin-right:15%;
+    border-collapse: collapse;
+}
+
+#milieu table td
+{
+
+	color:black;
+	text-align: center;
+}
+
+table.edt th
+{
+	border-color:black;
+}
+
+td.caseVide
+{
+	background-color: #ACA7A7;
+}
+
+td.edtEnfant
+{
+	background-color: #EBA864;
+}
+
+td.edtAdulte
+{
+	background-color: #EB8464;
+}
+
+center
+{
+font-size:23px;
+margin-top:10px;
+color:black;
+}
+
+
+#contactForm 
+{
+	
+    width: 45%;
+}
+
+#contactForm  div + div
+{
+    margin-top: 1em;
+}
+
+#contactForm label 
+{
+    display: inline-block;
+    width: 90px;
+    text-align: left;
+	font-size:22px;
+	color:#EAE1E1;
+}
+
+#contactForm input, #contactForm textarea 
+{
+    font: 0.85em sans-serif;
+    width: 350px;
+}
+#contactForm textarea {
+    vertical-align: top;
+    height: 10em;
+    resize: vertical;
+}
+#contactForm .button 
+{
+    padding-left: 90px;
+}
